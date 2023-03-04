@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 20px 130px;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(23, 23, 23);
+}
+
+.logo {
+    height: 60px;
+    /* filter: drop-shadow(0 0 10px rgb(255, 247, 0)); */
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 18px;
+}
+
+.menu {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(0, 128, 128);
+    line-height: 3;
+}
+
+.sub {
+    color: rgb(0, 231, 231);
+    border-bottom: 2px solid rgb(0, 231, 231);
+    text-shadow: 0 0 20px rgb(2, 203, 203), 0 0 20px rgb(2, 203, 203), 0 0 20px rgb(2, 203, 203);
+}
+
+.menu:hover {
+    color: rgb(0, 231, 231);
+    text-shadow: 0 0 20px rgb(2, 203, 203), 0 0 20px rgb(2, 203, 203), 0 0 20px rgb(2, 203, 203);
+}
+
+body {
+    background-color: #000;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h2 {
+    color: #fff;
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 17px;
+    padding: 10px 0;
+    color: rgb(0, 190, 190);
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 80px;
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid teal;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input {
+    color: #fff;
+    background-color: #000;
+    width: 300px;
+    padding: 7px 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(0, 89, 89);
+}
+
+input:focus, textarea:focus {
+    transition: all .3s;
+    border-bottom: 2px solid rgb(0, 255, 255);
+}
+
+
+button {
+    background-color: teal;
+    color: #fff;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* .cajon {
+    padding: 80px 0;
+    background-color: #000;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    height: 50px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.form input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #fff;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.form .lbl-nombre {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 2px solid rgb(0, 92, 92);
+}
+
+.form .lbl-nombre::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid rgb(0, 191, 191);
+    transform: translateX(-100%);
+    transition: all .3s ease;
+}
+
+.text-nomb {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all .3s ease;
+    color: rgb(78, 78, 78);
+}
+
+.form input:focus + .lbl-nombre .text-nomb, .form input:valid + .lbl-nombre .text-nomb {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: rgb(0, 191, 191);
+}
+
+.form input:focus + .lbl-nombre::after, .form input:valid + .lbl-nombre::after  {
+    transform: translateX(0%);
+} */
+
+/* .caja-boton {
+    display: block;
+    text-align: center;
+}
+
+
+.boton {
+    padding: 8px 30px;
+    background-color: rgb(0, 111, 111);
+    text-decoration: none;
+    color: #fff;
+}
+
+.boton:hover {
+    background-color: rgb(0, 154, 154);
+}
+
+.caja-boton:hover > h3 {
+    display: block;
+} */
+
+/* .caja-boton {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(0, 185, 185);
+    padding: 7px 30px;
+    color: rgb(0, 67, 67);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: rgb(0, 67, 67);
+    color: #fff;
+    transition: all .3s;
+} */
+
+
+
+
+
+footer {
+    background-color: #000;
+    padding: 30px;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes {
+    color: #fff;
+    transform: scale(1.5);
+}
+
+.cajita {
+    margin: 0 25px;
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+    header {
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width:800px) {
+    header {
+        padding: 20px;
+    }
+    li {
+        padding: 0 12px;
+    }
+    .menu {
+        font-size: 18px;
+    }
+    .logo {
+        height: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        padding: 20px 5px;
+    }
+    li {
+        padding: 0 6px;
+    }
+    .menu {
+        font-size: 16px;
+    }
+    .logo {
+        height: 45px;
+    }
+    .form {
+        max-width: 350px;
+    }
+}
