@@ -6,9 +6,7 @@ function validar(){
     let input5 = document.querySelector(".input5").value;
 
     if(input1 != "" && input2 != "" && input3 != "" && input4 != "" && input5 != ""){
-        alert("Mensaje enviado, muchas gracias");
-        window.close();
-        window.open("index.html");
+        window.open("confirmacion.html");
     }
     else{
         alert("No se pudo enviar el mensaje")
